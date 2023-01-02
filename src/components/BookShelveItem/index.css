@@ -1,0 +1,54 @@
+.book-shelve-item {
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .book-shelve-item {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.shelve-button {
+  font-size: 14px;
+  border: solid 1px #0284c7;
+  color: #0284c7;
+  font-family: 'Consolas';
+  font-weight: 400;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 25px;
+  width: 100%;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .shelve-button {
+    font-size: 16px;
+    color: #475569;
+    border-style: none;
+    padding: 0;
+  }
+}
+
+.active-shelve-button {
+  background-color: #0284c7;
+  color: #f5f7fa;
+}
+
+.inactive-shelve-button {
+  background-color: transparent;
+  color: #0284c7;
+}
+
+@media screen and (min-width: 768px) {
+  .active-shelve-button {
+    color: #0284c7;
+    background-color: transparent;
+  }
+
+  .inactive-shelve-button {
+    color: #475569;
+  }
+}

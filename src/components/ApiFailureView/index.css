@@ -1,0 +1,41 @@
+.api-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.api-failure-img {
+  height: 117.6px;
+  width: 238px;
+}
+
+@media screen and (min-width: 768px) {
+  .api-failure-img {
+    height: 230px;
+    width: 469px;
+  }
+}
+
+.failure-message {
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-message {
+    font-size: 24px;
+  }
+}
+
+.btn-try-again {
+  font-size: 14px;
+  font-family: 'Consolas';
+  color: #ffffff;
+  background-color: #0284c7;
+  height: 40px;
+  width: 120px;
+  border-radius: 4px;
+}

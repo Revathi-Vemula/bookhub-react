@@ -1,0 +1,201 @@
+.link-item-top-rated {
+  text-decoration: none;
+  color: #334155;
+}
+
+.page-main-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f5f7fa;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+  margin-top: 70px;
+  background-color: #f5f7fa;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    padding: 40px;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.top-home-container {
+  padding: 15px;
+  width: 100vw;
+  padding-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .top-home-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100vw;
+  }
+}
+
+.heading-home {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .heading-home {
+    font-size: 25px;
+    font-weight: 600;
+  }
+}
+
+.home-desc {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #475569;
+  line-height: 24px;
+  line-height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-desc {
+    font-size: 15px;
+  }
+}
+
+.find-books-button-sm {
+  color: #f5f7fa;
+  font-size: 14px;
+  font-family: 'Consolas';
+  background-color: #0284c7;
+  height: 40px;
+  width: 100px;
+  border-style: none;
+  border-radius: 4px;
+}
+
+.find-books-button-md {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .find-books-button-sm {
+    display: none;
+  }
+
+  .find-books-button-md {
+    color: #f5f7fa;
+    font-size: 14px;
+    font-family: 'Consolas';
+    background-color: #0284c7;
+    height: 35px;
+    width: 100%;
+    border-style: none;
+    border-radius: 4px;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+}
+
+.loader-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-rated-heading-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-rated-books-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .top-rated-books-container {
+    height: 100%;
+  }
+}
+
+.top-rated-heading {
+  font-size: 18px;
+  font-family: 'Consolas';
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .top-rated-heading {
+    font-size: 22px;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.book-item {
+  width: 150px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.cover-picture {
+  height: 90px;
+  width: 150px;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .book-item {
+    width: 280px;
+    height: 220px;
+    flex-grow: 1;
+  }
+
+  .cover-picture {
+    height: 140px;
+    width: 280px;
+    flex-grow: 1;
+  }
+}
+
+.top-rated-title {
+  font-size: 14px;
+  font-family: 'Consolas';
+  font-weight: 700;
+  text-align: center;
+  margin: 3px;
+}
+
+.top-rated-author-name {
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Consolas';
+  margin: 3px;
+}

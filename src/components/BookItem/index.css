@@ -1,0 +1,80 @@
+.link-style {
+  text-decoration: none;
+}
+
+.book-item-container {
+  display: flex;
+  flex-direction: row;
+  width: 95vw;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .book-item-container {
+    width: 30vw;
+  }
+}
+
+.book-cover-picture {
+  height: 170px;
+  width: 133px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.book-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: 'calibri';
+}
+
+.rating-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.book-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: #334155;
+  margin: 0;
+}
+
+.author-name {
+  font-size: 15px;
+  color: #475569;
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-left: 0;
+  text-align: start;
+}
+
+.avg-rating {
+  color: #475569;
+  font-size: 14px;
+  margin-right: 5px;
+  font-family: 'consolas';
+}
+
+.rating {
+  color: #475569;
+  font-size: 14px;
+  margin-left: 5px;
+  font-family: 'HK Grostek';
+  font-weight: 600;
+}
+
+.book-status {
+  color: #475569;
+  font-size: 14px;
+  font-family: 'consolas';
+  margin-top: 0;
+}
+
+.read-status {
+  color: #0284c7;
+  font-weight: 800;
+}

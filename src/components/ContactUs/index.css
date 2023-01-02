@@ -1,0 +1,22 @@
+.contact-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  align-self: center;
+  background-color: #f5f7fa;
+}
+
+.social-icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 150px;
+}
+
+.contact-us-heading {
+  font-size: 15px;
+  font-family: 'COnsolas';
+  color: #3d3c3c;
+}

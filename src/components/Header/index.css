@@ -1,0 +1,138 @@
+.navbar-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 20px;
+  position: fixed;
+  width: 100vw;
+  background-color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-header {
+    padding-left: 50px;
+    padding-right: 10px;
+    justify-content: space-between;
+  }
+}
+
+.bookhub-logo-header {
+  height: 40px;
+  width: 120px;
+}
+
+@media screen and (min-width: 768px) {
+  .bookhub-logo-header {
+    height: 50px;
+    width: 150px;
+  }
+}
+
+.actions-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .actions-container {
+    width: 50vw;
+  }
+}
+
+.hamburger-menu {
+  background-color: transparent;
+  border-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+.action-button {
+  margin-top: 8px;
+  background-color: transparent;
+  border-style: none;
+  font-weight: 500;
+  font-family: 'Consolas';
+  color: '#0284C7';
+  font-size: 18px;
+}
+
+.button-logout {
+  background-color: #0284c7;
+  padding: 8px;
+  height: 35px;
+  font-size: 15px;
+  border-style: none;
+  width: 80px;
+  color: #f8fafc;
+  font-family: 'Consolas';
+  border-radius: 5px;
+}
+
+.close-button {
+  background-color: transparent;
+  border-style: none;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .close-button {
+    display: none;
+  }
+}
+
+.hamburger-menu-sm {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  list-style-type: none;
+  width: 100vw;
+  justify-content: space-around;
+  padding-left: 0;
+  height: 50px;
+  background-color: #f5f7fa;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger-menu-sm {
+    display: none;
+  }
+}
+
+.actions-md {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .actions-md {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 100vw;
+  }
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.active-tab {
+  color: #0284c7;
+}
+
+.inactive-tab {
+  color: #64748b;
+}
+
+.link-style {
+  text-decoration: none;
+}

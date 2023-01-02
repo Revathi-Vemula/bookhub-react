@@ -1,0 +1,128 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-container {
+    flex-direction: row;
+    padding: 0;
+  }
+}
+
+.login-md-banner-image {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .login-md-banner-image {
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+  }
+}
+
+.login-sm-banner-image {
+  display: flex;
+  height: 220px;
+  width: 220px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-sm-banner-image {
+    display: none;
+  }
+}
+
+.login-details-container {
+  display: flex;
+  background-color: #f8fafc;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .login-details-container {
+    width: 50vw;
+    height: 100vh;
+  }
+}
+
+.book-hub-logo {
+  height: 30px;
+  width: 104px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .book-hub-logo {
+    height: 40px;
+    width: 120px;
+    margin: 20px;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100vw;
+}
+
+@media screen and (min-width: 768px) {
+  .form-container {
+    margin-left: 20px;
+    width: 35vw;
+    padding: 10px;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.input-label {
+  font-size: 14px;
+  font-family: 'Consolas';
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.input-field {
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  height: 35px;
+  font-family: 'Consolas';
+  padding: 10px;
+  font-size: 14px;
+}
+
+.error-msg {
+  color: #ef4444;
+  font-family: 'consolas';
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.login-button {
+  width: 80%;
+  height: 35px;
+  border-radius: 8px;
+  border-style: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #0284c7;
+  color: #ffffff;
+  font-family: 'Consolas';
+}

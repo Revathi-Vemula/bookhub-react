@@ -1,0 +1,48 @@
+.path-not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f5f7fa;
+  padding: 30px;
+}
+
+.image-path-not-found {
+  height: 180px;
+  width: 250px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .image-path-not-found {
+    height: 200px;
+    width: 350px;
+  }
+}
+
+.heading-path-not-found {
+  font-size: 18px;
+  font-family: 'Consolas';
+  color: #334155;
+}
+
+.page-not-found-desc {
+  font-size: 14px;
+  font-family: 'Consolas';
+  color: #475569;
+  text-align: center;
+}
+
+.button-back-home {
+  background-color: #0284c7;
+  width: 150px;
+  padding: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Consolas';
+  border-style: none;
+  border-radius: 8px;
+  margin: 10px;
+}
